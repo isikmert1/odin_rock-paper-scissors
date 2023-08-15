@@ -1,1 +1,1 @@
-# odin_rock-paper-scissors
+# This little project helped me practice Javascript when I was learning it for the first time.
