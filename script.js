@@ -41,7 +41,7 @@ function getPlayerChoice() {
     while (validatedInput === false) {
         const choice = prompt ("Rock ,Paper or Scissors?");
         if (choice === null) {
-            continue;
+            break;
         }
         const choiceInLower = choice.toLowerCase();
         if(options.includes(choiceInLower)){

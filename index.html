@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <link href="styles.css" rel="stylesheet"/>  -->
-        <script src="script.js"></script>
+        <link href="styles.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
         <title>Rock Paper Scissors</title>
     </head>
+    <body>
+        <header class="header">
+            <h1 class="title">ROCK PAPER SCISSORS</h1>
+        </header>
+        <main class="main">
+            <div class="scoreboard">
+                <h2 class="score-info" id="scoreInfo">Choose:</h2>
+                <h3 class="score-msg">First to 5 wins.</h3>
+                <div class="scores-container">
+                    <div class="score-box">
+                        <div class="sign" id="playerSign">❔</div>
+                        <p class="score" id="playerScore">Player: 0</p>
+                    </div>
+                    <div class="score-box">
+                        <div class="sign" id="computerSign">❔</div>
+                        <p class="score" id="computerScore">Computer: 0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn btn-square" id="rockBtn">
+                    <div class="sign">🗿</div>
+                </button>
+                <button class="btn btn-square" id="paperBtn">
+                    <div class="sign">📝</div>
+                </button>
+                <button class="btn btn-square" id="scissorsBtn">
+                    <div class="sign">✂️</div>
+                </button>
+            </div>
+        </main>
+    </body>
 </html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Verdana, Tahoma ,sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #222831;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+button {
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: #111720;
+}
+
+.title {
+    font-size: 32px;
+    text-shadow:
+        0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 4px #fff;
+}
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.scoreboard {
+    margin-bottom: 15px;
+}
+
+.score-info {
+    font-size: 32px;
+}
+
+.score-message {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.scores-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.score-box {
+    width: 170px;
+}
+
+.score {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: #393e46;
+}
+
+.btn-square {
+    width: 160px;
+    height: 160px;
+}
+
+.btn:hover {
+    background-color: #4a4f57;
+}
+
+.btn:active {
+    background-color: #5b5f68;
+}
+
+.sign {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 550px) {
+    .title {
+        font-size: 18px;
+    }
+
+    .score-info {
+        font-size: 26px;
+    }
+
+    .buttons {
+        gap: 10px;
+    }
+
+    .btn-square {
+        width: 100px;
+        height: 100px;
+    }
+
+    .sign {
+        font-size: 50px;
+    }
+
+    .modal {
+        width: 95%;
+    }
+}
