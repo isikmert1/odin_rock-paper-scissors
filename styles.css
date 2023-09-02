@@ -107,7 +107,37 @@ button {
     margin-bottom: 10px;
 }
 
+.modal {
+    visibility: hidden;
+}
 
+.modal.active {
+    visibility: visible;
+}
+
+.modal-title {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.btn-restart {
+    padding: 5px 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #393e46;
+}
+
+.btn-restart:hover {
+    background-color: #4a4f57;
+}
+
+.btn-restart:active {
+    background-color: #5b5f68;
+}
 
 @media (max-width: 550px) {
     .title {
@@ -133,5 +163,14 @@ button {
 
     .modal {
         width: 95%;
+    }
+
+    .btn-restart {
+        font-size: 26px;
+        padding: 4px 16px;
+    }
+
+    .modal-title {
+        font-size: 18px;
     }
 }

@@ -15,7 +15,7 @@
         <main class="main">
             <div class="scoreboard">
                 <h2 class="score-info" id="scoreInfo">Choose:</h2>
-                <h3 class="score-msg">First to 5 wins.</h3>
+                <h3 class="score-message" id="scoreMessage">First to 5 wins.</h3>
                 <div class="scores-container">
                     <div class="score-box">
                         <div class="sign" id="playerSign">❔</div>
@@ -37,6 +37,10 @@
                 <button class="btn btn-square" id="scissorsBtn">
                     <div class="sign">✂️</div>
                 </button>
+            </div>
+            <div class="modal" id="endgameModal">
+                <p class="modal-title" id="endgameMsg"></p>
+                <button id="restartBtn" class="btn-restart">↻</button>
             </div>
         </main>
     </body>
